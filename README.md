@@ -10,10 +10,33 @@
 ## Steps
 
 * Create a new Rails app
+* Add nav bar to application.html.erb
 * Add a Photos controller
 * Set up the routes
-* Add your model
+* Add your model and migration
+* migrate
 * Integrate paperclip gem
+* Bundle
+* add attributes to photos table
+    * `rails generate paperclip photo image`
+* migrate
+* add paperclip functionality to model
+    * `has_attached_file :image`
+* set up controller
+    * just have to permit `image`
+    * other fields are taken care of in paperclip
+* create view for `new` action
+    * use `f.file_field :image`
+* extract errors to a partial in views/shared_errors.html.erb
+* Paperclip requires content type validation
+    ````validates_attachment :image,
+                     content_type: { content_type: ["image/jpeg", "image/gif", "image/png"] }
+    ````
+* you are now ready to upload your first file
+* create index view
+    * iterate over @photos array
+    * `views/photos/_photo.html.erb` partial will be used by default
+* generate thumbnails with ImageMagick 
 
 ### Notes
 
