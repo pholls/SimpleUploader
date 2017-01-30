@@ -3,12 +3,17 @@
 ## Requirements
 
 * ImageMagick
-* rmagick gem
 * Paperclip gem
+* Rails 4.2 or higher
+* Ruby 2.0 or higher
 
 ## Steps
 
-* 
+* Create a new Rails app
+* Add a Photos controller
+* Set up the routes
+* Add your model
+* Integrate paperclip gem
 
 ### Notes
 
