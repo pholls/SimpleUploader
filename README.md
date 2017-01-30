@@ -29,7 +29,8 @@
     * use `f.file_field :image`
 * extract errors to a partial in views/shared_errors.html.erb
 * Paperclip requires content type validation
-    ````validates_attachment :image,
+    ````
+    validates_attachment :image,
                      content_type: { content_type: ["image/jpeg", "image/gif", "image/png"] }
     ````
 * you are now ready to upload your first file
