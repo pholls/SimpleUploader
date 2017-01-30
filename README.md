@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Download [ImageMagick](http://imagemagick.org/script/download.php#macosx)
+    * I recommend downloading [MacPorts](https://www.macports.org/install.php) first and then running `sudo port install ImageMagick`
+    * Using Homebrew doesn't update the necessary dependencies as easily and was a huge headache
 
-Things you may want to cover:
+## Resources
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [SitePoint tutorial](https://www.sitepoint.com/uploading-files-with-paperclip/)
+* [RMagick Docs](https://rmagick.github.io/usage.html)
+* [ImageMagick Download](http://imagemagick.org/script/download.php#macosx) 
+* [MacPorts Download](https://www.macports.org/install.php)
