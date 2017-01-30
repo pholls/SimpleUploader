@@ -6,7 +6,7 @@
 * rmagick gem
 * Paperclip gem
 
-## Instructions
+## Steps
 
 * 
 
